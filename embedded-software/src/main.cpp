@@ -27,10 +27,6 @@ boolean ledPin_state;
 // Initialize software serial
 SoftwareSerial mySoftwareSerial(2, 3);  // TODO: TX, RX (on DF player)
 DFRobotDFPlayerMini myDFPlayer;
-String line;
-char command;
-int pause = 0;
-int repeat = 0;
 
 void setup()
 {
